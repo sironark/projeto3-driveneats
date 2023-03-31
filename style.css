@@ -92,7 +92,7 @@ z-index: 1;
     
 }
 
-.prato{
+.prato1, .prato2, .prato3, .prato4 {
     width: 172px;
     height: 216px;
     background: #FFFFFF;
@@ -111,7 +111,29 @@ z-index: 1;
     box-sizing: border-box;
 }
 
-.bebida{
+.pratoverde {
+    width: 172px;
+    height: 216px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    border: 5px solid #32B72F; 
+   
+
+    margin-right: 19px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    padding-top: 13px;
+    padding-left: 9px;
+    padding-right: 9px;
+    box-sizing: border-box;
+}
+
+
+.bebida1, .bebida2, .bebida3, .bebida4  {
     width: 172px;
     height: 200px;
     background: #FFFFFF;
@@ -130,12 +152,54 @@ z-index: 1;
     box-sizing: border-box;
 }
 
-.doce{
+.bebidaverde  {
     width: 172px;
     height: 200px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
+    border: 5px solid #32B72F; 
+
+
+    margin-right: 19px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+}
+
+.doce1, .doce2, .doce3, .doce4 {
+    width: 172px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+    margin-right: 19px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+}
+
+.doceverde{
+    width: 172px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    border: 5px solid #32B72F; 
+
 
     margin-right: 19px;
     margin-top: 8px;
@@ -175,6 +239,7 @@ font-weight: 400;
 font-size: 16px;
 color: #000;
 }
+
 
 .botton-bar{
     
@@ -255,11 +320,30 @@ button{
 
 
 .background-branco{
-    display: none;
+    
     background-color: rgba(255, 255, 255, 0.9);
     height: 1026px;
     width: 414px;
-    position: fixed;
+    
+    position: absolute;
     top:0;
     z-index: 3;
+    
+    padding-left: 18px;
+    padding-top: 336px;
+    box-sizing: border-box;
+
+    
+   
+}
+
+.confirme{
+    width: 377px;
+    height: 353px;
+
+    background: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+
+    position: fixed;
 }
