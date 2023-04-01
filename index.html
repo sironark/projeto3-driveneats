@@ -18,12 +18,7 @@
 
 
 <body> 
-    <div class="background-branco escondido">
-        <div class="confirme">
-
-        </div>
-    </div>
-
+    
         <div class="top-bar">
             <p>Driven Eats</p>
             <p>Sua comida em 6 minutos</p>
@@ -37,6 +32,7 @@
                 <div class="opções-prato" >
 
                     <div class="prato1" onclick="selectGreen1('.prato1') " data-test="dish">
+                       
                         <img src="./projeto__driven-eats__imagens/frango_yin_yang.png" alt="">
                         <p class="nome-prato">Frango Yin Yang</p>
                         <p class="descrição">Um pouco de batata, um pouco de salada</p>
@@ -44,6 +40,7 @@
                     </div>
 
                     <div class="prato2" onclick="selectGreen1('.prato2')" data-test="dish">
+                        
                         <img src="./projeto__driven-eats__imagens/frango_yin_yang.png" alt="">
                         <p class="nome-prato">Frango Yin Yang</p>
                         <p class="descrição">Um pouco de batata, um pouco de salada</p>
@@ -140,20 +137,21 @@
             </div>
 
 
-            <div class="botton-bar" data-test="order-btn">
+            <button class="botton-bar" disabled data-test="order-btn">
+                
                 <div class="frase-botton">
                     <p>Selecione os 3 itens</p>
                     <p>para fechar o pedido</p>
                 </div>
-            </div>
+            </button>
      
         
             <div class="botton-bar-fechar escondido" data-test="order-btn">
-                <button>
-                <div class="frase-botton-fechar">
+                <button class="frase-botton-fechar" >
+                    <a class="wpp" href="https://wa.me/5524999378096?text= Ol%C3%A1%2C%20gostaria%20de%20fazer%20o%20pedido%3A%0A-%20Prato%3A%20Frango%20Yin%20Yang%0A-%20Bebida%3A%20Coquinha%20Gelada%0A-%20Sobremesa%3A%20Pudim%0ATotal%3A%20R%24%2027%2C70"
+                    onclick="whats(this)"></a>
                     <p>Fechar pedido</p>
-                </div>
-            </button>
+                </button>
             </div>
 
         </div>

@@ -15,6 +15,9 @@ function selectGreen1(seletor){
     
     const elemento = document.querySelector(seletor);
     elemento.classList.add('pratoverde');
+    
+    const element = document.querySelector(seletor);
+    element.classList.remove('escondido');
    
     
     if( index > 2 ){
@@ -38,7 +41,6 @@ function selectgreen2(seletor){
     if( index > 2 ){
         const elemento = document.querySelector('.botton-bar-fechar');
         elemento.classList.remove('escondido');
-        console.log('xxx')
     }
 
 }
@@ -58,9 +60,12 @@ function selectgreen3(seletor){
     if( index > 2 ){
         const elemento = document.querySelector('.botton-bar-fechar');
         elemento.classList.remove('escondido');
-        console.log('xxx')
     }
     
 }
 
-
+function telaFinal(selector){
+   
+    const elemento = document.querySelector(selector);
+    elemento.classList.remove('escondido');
+}
